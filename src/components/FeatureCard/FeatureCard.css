@@ -1,0 +1,44 @@
+/* src/components/FeatureCard.css */
+.feature-card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1rem; /* Corresponds to gap-3 */
+  border-radius: 8px; /* Corresponds to rounded-lg */
+  border: 1px solid #314d68;
+  background-color: #182734;
+  padding: 16px; /* Corresponds to p-4 */
+  height: 13rem;
+}
+
+.icon-container {
+  color: white;
+}
+
+.icon-container svg {
+  width: 30px;
+  height: 30px;
+  fill: currentColor;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px; /* Corresponds to gap-1 */
+}
+
+.card-title {
+  color: white;
+  font-size: 1.5rem; /* Corresponds to text-base */
+  font-weight: 500; /* Corresponds to font-bold */
+  line-height: 1.2; /* Corresponds to leading-tight */
+  margin: 0;
+}
+
+.card-description {
+  color: #90aecb;
+  font-size: 14px; /* Corresponds to text-sm */
+  font-weight: 400; /* Corresponds to font-normal */
+  line-height: 1.5; /* Corresponds to leading-normal */
+  margin-top: 1rem;
+}

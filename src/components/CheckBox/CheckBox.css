@@ -1,0 +1,21 @@
+.form-remember {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.remember-text {
+  font-size: 1rem;
+  color: #90aecb;
+}
+
+.checkbox {
+  background: transparent;
+  border-radius: 50%;
+  border: 1px solid #90aecb;
+  width: 16px;
+  height: 16px;
+}

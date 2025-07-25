@@ -1,0 +1,96 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #223649;
+  min-height: 64px;
+  width: 100%;
+  padding-inline: 1rem;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  transition: color 0.5s;
+}
+
+.logo-text:hover {
+  color: #0b80ee;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.ul-links {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul-links a {
+  text-decoration: none;
+}
+
+.ul-links li {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.5s;
+  border-radius: 0.375rem;
+}
+
+.ul-links li:hover {
+  color: #0b80ee;
+}
+
+.custom-btn {
+  border-radius: 12px;
+  border: none;
+  background: #223649;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: background 0.2s;
+}
+
+.custom-btn:hover {
+  background: #2d425a;
+}
+
+.custom-btn svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-links > a:last-child,
+.navbar-links > .profile-link {
+  margin-left: 0;
+}
+
+.navbar-links svg {
+  display: block;
+}
+
+.profile-link,
+.navbar-links > a:last-child svg {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  object-fit: cover;
+  background: #223649;
+}

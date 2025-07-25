@@ -1,0 +1,46 @@
+.total-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 0;
+}
+
+.total-card {
+  min-width: 158px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  background: #223649;
+}
+
+.total-card-title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.total-card-value {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+
+.total-card-percentage {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.total-card-percentage.positive {
+  color: #0bda0b;
+}
+
+.total-card-percentage.negative {
+  color: #ff0000;
+}

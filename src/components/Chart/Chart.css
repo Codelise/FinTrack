@@ -1,0 +1,75 @@
+.chart-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+.chart-card {
+  margin-top: 1rem;
+  min-width: 18rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #314d68;
+  padding: 1.5rem;
+  background: transparent;
+}
+
+.chart-title {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.category-bars {
+  display: grid;
+  min-height: 180px;
+  grid-auto-flow: column;
+  gap: 1.5rem;
+  grid-template-rows: 1fr auto;
+  align-items: end;
+  justify-items: center;
+  padding-inline: 0.75rem;
+}
+
+.bar {
+  width: 100%;
+  border-top: 2px solid #90aecb;
+  background: #223649;
+  border-radius: 0.5rem 0.5rem 0 0;
+  transition: background 0.2s;
+}
+
+.bar-label {
+  color: #90aecb;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.015em;
+  margin-top: 0.25rem;
+}
+
+.budget-chart-area {
+  display: flex;
+  flex-direction: column;
+  min-height: 180px;
+  flex: 1;
+  gap: 2rem;
+  padding-block: 1rem;
+}
+
+.budget-chart-labels {
+  display: flex;
+  justify-content: space-around;
+}
+
+.budget-chart-labels p {
+  color: #90aecb;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.015em;
+  margin: 0;
+}

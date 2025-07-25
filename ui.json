@@ -1,0 +1,143 @@
+{
+    "elementStyling": {
+      "global": {
+        "background": "#0D1117",
+        "text": {
+          "primary": "#FFFFFF",
+          "secondary": "#C9D1D9",
+          "heading": "#FFFFFF",
+          "subheading": "#C9D1D9",
+          "muted": "#8B949E"
+        }
+      },
+      "navbar": {
+        "background": "#0D1117",
+        "text": "#FFFFFF",
+        "linkHover": "#58A6FF",
+        "button": {
+          "text": "#FFFFFF",
+          "background": "#1F6FEB",
+          "hover": "#1158C7"
+        }
+      },
+      "heroSection": {
+        "backgroundImageOverlay": "rgba(13, 17, 23, 0.6)",
+        "text": {
+          "title": "#FFFFFF",
+          "subtitle": "#C9D1D9"
+        },
+        "button": {
+          "background": "#1F6FEB",
+          "text": "#FFFFFF",
+          "hover": "#1158C7",
+          "shadow": "0 4px 8px rgba(31, 111, 235, 0.3)",
+          "borderRadius": "8px"
+        }
+      },
+      "cards": {
+        "background": "#161B22",
+        "border": "#30363D",
+        "borderRadius": "12px",
+        "shadow": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "icons": {
+          "fill": "#1F6FEB",
+          "background": "none"
+        },
+        "text": {
+          "title": "#FFFFFF",
+          "body": "#C9D1D9"
+        },
+        "hover": {
+          "shadow": "0 4px 12px rgba(31, 111, 235, 0.25)"
+        }
+      },
+      "featuresSection": {
+        "background": "#0D1117",
+        "text": {
+          "heading": "#FFFFFF",
+          "subtext": "#C9D1D9"
+        }
+      },
+      "ctaSection": {
+        "background": "#0D1117",
+        "text": {
+          "heading": "#FFFFFF",
+          "body": "#C9D1D9"
+        },
+        "button": {
+          "background": "#1F6FEB",
+          "text": "#FFFFFF",
+          "hover": "#1158C7",
+          "shadow": "0 4px 8px rgba(31, 111, 235, 0.3)"
+        }
+      },
+      "footer": {
+        "background": "#0D1117",
+        "text": {
+          "links": "#8B949E",
+          "hover": "#58A6FF"
+        }
+      }
+    },
+    "componentStates": {
+      "buttons": {
+        "default": {
+          "background": "#1F6FEB",
+          "text": "#FFFFFF"
+        },
+        "hover": {
+          "background": "#1158C7"
+        },
+        "active": {
+          "background": "#0E4194"
+        },
+        "disabled": {
+          "background": "#30363D",
+          "text": "#6E7681"
+        },
+        "focus": {
+          "outline": "2px solid #58A6FF"
+        }
+      },
+      "cards": {
+        "default": {
+          "shadow": "0 2px 8px rgba(0, 0, 0, 0.3)",
+          "background": "#161B22"
+        },
+        "hover": {
+          "shadow": "0 4px 12px rgba(31, 111, 235, 0.25)"
+        }
+      }
+    },
+    "visualEffects": {
+      "shadows": {
+        "button": "0 4px 8px rgba(31, 111, 235, 0.3)",
+        "card": "0 2px 8px rgba(0, 0, 0, 0.3)",
+        "cardHover": "0 4px 12px rgba(31, 111, 235, 0.25)"
+      },
+      "gradients": {
+        "none": "No gradient used in base elements; background is solid dark",
+        "DO_NOT": [
+          "Do not apply gradients on cards, icons, or text. All backgrounds are solid colors."
+        ]
+      },
+      "borders": {
+        "card": "1px solid #30363D",
+        "button": "none"
+      },
+      "borderRadius": {
+        "buttons": "8px",
+        "cards": "12px",
+        "images": "12px"
+      }
+    },
+    "DO_NOT": [
+      "Do not apply gradients to card icons — use solid #1F6FEB fill",
+      "Do not use button hover background color on navigation links",
+      "Do not apply button colors to text elements outside call-to-action areas",
+      "Do not reuse card shadows for buttons or vice versa",
+      "Do not round corners on text or icon-only containers",
+      "Do not place shadows on inline text or icons without background containers"
+    ]
+  }
+  

@@ -1,0 +1,54 @@
+/* src/components/HeroSection.css */
+.hero-container {
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  flex-direction: column;
+  gap: 24px; /* gap-6 */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 12px; /* @[480px]:rounded-xl */
+  padding: 16px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+}
+
+.hero-title {
+  color: white;
+  font-size: 3rem; /* text-5xl */
+  font-weight: 700; /* font-black */
+  line-height: 1.1; /* leading-tight */
+  letter-spacing: -0.033em;
+  margin: 0;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: 1rem; /* text-base */
+  font-weight: 400; /* font-normal */
+  line-height: 1.5;
+  margin: 0;
+  white-space: wrap;
+}
+
+/* Specific button styles for the hero section */
+.hero-container .custom-btn {
+  height: 48px; /* h-12 */
+  padding-left: 20px; /* px-5 */
+  padding-right: 20px; /* px-5 */
+  font-size: 1rem; /* text-base */
+  background-color: #0b80ee;
+}
+
+.hero-container .custom-btn:hover {
+  background-color: #0b80ee;
+}

@@ -1,0 +1,37 @@
+/* HeaderLogin.css */
+body {
+  background-color: #101a23;
+}
+
+.login-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: transparent;
+  padding: 0.75rem 2.5rem;
+  border-bottom: 1px solid #223649;
+  color: white;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+  fill: currentColor;
+}
+
+.logo-text {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+  

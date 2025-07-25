@@ -1,0 +1,63 @@
+.btn,
+.custom-btn {
+  display: flex;
+  min-width: 84px;
+  max-width: 480px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 9999px; /* rounded-full */
+  height: 40px; /* h-10 */
+  padding-left: 16px; /* px-4 */
+  padding-right: 16px; /* px-4 */
+  background-color: #0b80ee;
+  color: white;
+  font-size: 14px; /* text-sm */
+  font-weight: 700; /* font-bold */
+  line-height: 1.5; /* leading-normal */
+  letter-spacing: 0.015em;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(11, 128, 238, 0.15);
+  transition:
+    background 0.2s,
+    color 0.2s,
+    box-shadow 0.2s,
+    transform 0.15s;
+}
+
+.btn.primary,
+.custom-btn {
+  background-color: #0b80ee;
+  color: white;
+}
+
+.btn.primary:hover,
+.custom-btn:hover {
+  background-color: #156fd1;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(11, 128, 238, 0.25);
+  transform: translateY(-2px) scale(1.04);
+}
+
+.btn.primary:active,
+.custom-btn:active {
+  background-color: #0b80ee;
+  box-shadow: 0 1px 4px rgba(11, 128, 238, 0.12);
+  transform: scale(0.97);
+}
+
+.btn:disabled,
+.custom-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.btn span,
+.custom-btn span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} 

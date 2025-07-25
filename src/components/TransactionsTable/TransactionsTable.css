@@ -1,0 +1,84 @@
+.transactions-table-wrapper {
+  margin-top: 2rem;
+}
+
+.transactions-table-container {
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  border: 1px solid #314d68;
+  background: #101a23;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table-header-row {
+  background: #182734;
+}
+
+.transactions-table-header {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  min-width: 120px;
+}
+
+.transactions-table-header.date,
+.transactions-table-cell.date {
+  width: 200px;
+}
+.transactions-table-header.description,
+.transactions-table-cell.description {
+  width: 400px;
+}
+.transactions-table-header.category,
+.transactions-table-cell.category {
+  width: 160px;
+}
+.transactions-table-header.amount,
+.transactions-table-cell.amount {
+  width: 200px;
+}
+
+.transactions-table-row {
+  border-top: 1px solid #314d68;
+}
+
+.transactions-table-cell {
+  color: #90aecb;
+  font-size: 0.95rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  height: 72px;
+  vertical-align: middle;
+}
+
+.category-btn {
+  display: flex;
+  min-width: 84px;
+  max-width: 480px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 9999px;
+  height: 32px;
+  padding: 0 1rem;
+  background: #223649;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

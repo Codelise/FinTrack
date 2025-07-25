@@ -1,0 +1,38 @@
+/* src/components/Footer.css */
+.footer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 16px 24px 16px;
+  width: 100%;
+  background: transparent;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  margin-bottom: 16px;
+}
+
+.footer-links a {
+  color: #90aecb;
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.footer-links a:hover {
+  color: #0b80ee;
+}
+
+.footer-copy {
+  color: #90aecb;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1rem;
+  text-align: center;
+}

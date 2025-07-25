@@ -1,0 +1,63 @@
+/* src/components/Header/Header.css */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-bottom: 1px solid #223649;
+  padding: 12px 40px; /* py-3 px-10 */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 16px; /* gap-4 */
+  color: white;
+}
+
+.logo-icon {
+  width: 16px; /* size-4 */
+  height: 16px; /* size-4 */
+  fill: currentColor;
+}
+
+.logo-text {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 700; /* font-bold */
+  line-height: 1.5;
+  letter-spacing: -0.015em;
+}
+
+.nav-container {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 32px; /* gap-8 */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 36px; /* gap-9 */
+}
+
+.nav-links a {
+  color: white;
+  font-size: 1rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-links a:hover {
+  color: #0b80ee;
+}
+
+.nav-container Button {
+  background-color: #0b80ee;
+  transition: background-color 0.3s;
+}
+
+.nav-container Button:hover {
+  background-color: #0b80ee;
+}
